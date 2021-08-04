@@ -1,0 +1,74 @@
+body {
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+#container {
+  width: 640px;
+  background-color: #00000075;
+  margin: 15px auto 0;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+header>img {
+  width: 200px;
+}
+
+header>h1 {
+  color: #00DD00;
+  margin: 0;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+nav {
+  padding: 10px;
+  background-color: #00DD00;
+  margin: 5px 0 15px;
+}
+
+header, nav {
+  text-align: center;
+}
+
+main>section {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+section>p, section>h3 {
+  margin: 0;
+}
+
+h3:before {
+  content: "\25A0\a0";
+}
+
+section>p:first-of-type:before {
+  content: "\21A6\a0";
+}
+
+.mediumCharge {
+  background-color: goldenrod;
+  min-height: 25px;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.highCharge {
+  background-color: #00DD00;
+  min-height: 25px;
+  width: 75%;
+  border-radius: 5px;
+}
+
+.lowCharge {
+  background-color: #ff4d4d;
+  min-height: 25px;
+  width: 20%;
+  border-radius: 5px;
+}
